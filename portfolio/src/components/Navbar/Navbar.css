@@ -1,0 +1,11 @@
+.Navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7rem;
+    padding: 2rem;
+}
+
+.Navbar-list li {
+    margin-left: 5rem;
+}
