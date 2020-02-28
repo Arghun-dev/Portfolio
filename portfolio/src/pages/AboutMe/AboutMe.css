@@ -1,0 +1,19 @@
+.AboutMe {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('https://wallpapercave.com/wp/wp4974496.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.AboutMe-content {
+    border: 1px solid white;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
