@@ -3,6 +3,7 @@ import './MySkills.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Card from '../../components/Card/Card';
 import {CardContext} from '../../context/CardContext';
+import {Link} from 'react-router-dom';
 
 const MySkills = () => {
     const {card} = useContext(CardContext);
@@ -10,6 +11,7 @@ const MySkills = () => {
     return (
         <div className='MySkills'>
             <Navbar />
+            <Link className='text-warning link' to='/aboutme'>&#8592;Back</Link>
             <h1 className='text-light MySkills-heading'>MySkills</h1>
             <div className='MySkills-content'>
                 <Card 
