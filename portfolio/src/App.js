@@ -9,19 +9,22 @@ import BasicSkill from './pages/BasicSkill/BasicSkill';
 import AdvancedSkill from './pages/AdvancedSkill/AdvancedSkill';
 import {Switch, Route} from 'react-router-dom';
 
+import CardProvider from './context/CardContext';
 
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/aboutme' component={AboutMe} />
-        <Route exact path='/contact' component={Contact} />
-        <Route exact path='/myskills' component={MySkills} />
-        <Route exact path='/myskills/basic' component={BasicSkill} />
-        <Route exact path='/myskills/advance' component={AdvancedSkill} />
-        <Route exact path='/projects' component={Projects} />
-      </Switch>
+      <CardProvider>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/aboutme' component={AboutMe} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/myskills' component={MySkills} />
+          <Route exact path='/myskills/basic' component={BasicSkill} />
+          <Route exact path='/myskills/advance' component={AdvancedSkill} />
+          <Route exact path='/projects' component={Projects} />
+        </Switch>
+        </CardProvider>
     </div>
   );
 }

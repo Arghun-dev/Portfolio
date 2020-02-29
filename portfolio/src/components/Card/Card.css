@@ -1,0 +1,100 @@
+.cardWidth {
+    width: 35%;
+    -webkit-box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+    box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+}
+
+.card1 {
+    animation: moveFirst 30s linear infinite alternate;
+    -webkit-animation: moveFirst 30s linear infinite alternate;
+}
+
+.card2 {
+    animation: moveSecond 30s linear infinite alternate;
+    -webkit-animation: moveSecond 30s linear infinite alternate;
+}
+
+@keyframes moveFirst {
+    0% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    25% {
+        transform: translate(20px, 0);
+        -webkit-transform: translate(20px, 0);
+        -moz-transform: translate(20px, 0);
+        -ms-transform: translate(20px, 0);
+        -o-transform: translate(20px, 0);
+    }
+
+    50% {
+        transform: translate(30px, 20px);
+        -webkit-transform: translate(30px, 20px);
+        -moz-transform: translate(30px, 20px);
+        -ms-transform: translate(30px, 20px);
+        -o-transform: translate(30px, 20px);
+    }
+
+    75% {
+        transform: translate(10px, 30px);
+        -webkit-transform: translate(10px, 30px);
+        -moz-transform: translate(10px, 30px);
+        -ms-transform: translate(10px, 30px);
+        -o-transform: translate(10px, 30px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+}
+
+@keyframes moveSecond {
+    0% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-20px, 0);
+        -webkit-transform: translate(-20px, 0);
+        -moz-transform: translate(-20px, 0);
+        -ms-transform: translate(-20px, 0);
+        -o-transform: translate(-20px, 0);
+}
+
+    50% {
+        transform: translate(-30px, -20px);
+        -webkit-transform: translate(-30px, -20px);
+        -moz-transform: translate(-30px, -20px);
+        -ms-transform: translate(-30px, -20px);
+        -o-transform: translate(-30px, -20px);
+}
+
+    75% {
+        transform: translate(-10px, -30px);
+        -webkit-transform: translate(-10px, -30px);
+        -moz-transform: translate(-10px, -30px);
+        -ms-transform: translate(-10px, -30px);
+        -o-transform: translate(-10px, -30px);
+}
+
+    100% {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+}

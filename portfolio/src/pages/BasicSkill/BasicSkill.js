@@ -1,8 +1,9 @@
 import React from 'react';
+import './BasicSkill.css';
 
 const BasicSkill = () => {
     return (
-        <div>BasicSkill</div>
+        <div className='BasicSkill'>BasicSkill</div>
     )
 }
 

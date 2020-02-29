@@ -1,0 +1,8 @@
+.BasicSkill {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('https://images.ctfassets.net/2y9b3o528xhq/5YhXXuS0hIw6JV3nJr3GgP/682bf2a70a98c3e466f26c2c2a812d65/front-end-web-developer-nanodegree--nd001.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
