@@ -1,0 +1,18 @@
+.Projects {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('https://cdn-images-1.medium.com/max/2400/0*lBhKdwfBlmWAPQFd');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Projects-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 20%;
+    height: 10%;
+}

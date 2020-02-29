@@ -8,7 +8,7 @@ const BasicSkill = () => {
     return (
         <div className='BasicSkill'>
             <Navbar />
-            <Link className='text-warning'>&#8592;Back</Link>
+            <Link className='text-warning link' to='/myskills'>&#8592;Back</Link>
             <div className='BasicSkill-content'>
                 <div className='element el-1'>HTML</div>
                 <div className='element el-2'>CSS</div>

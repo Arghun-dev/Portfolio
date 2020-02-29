@@ -7,7 +7,6 @@ import {Link} from 'react-router-dom';
 
 const MySkills = () => {
     const {card} = useContext(CardContext);
-    console.log(card);
     return (
         <div className='MySkills'>
             <Navbar />
