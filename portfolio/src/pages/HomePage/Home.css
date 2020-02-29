@@ -1,4 +1,4 @@
-.AbouteMe {
+.Home {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('../../background.png');
     height: 100vh;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.AboutMe-content {
+.Home-content {
     color: white;
     margin-top: 4rem;
     margin-left: auto;

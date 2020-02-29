@@ -14,6 +14,24 @@
     -moz-border-radius: .4rem;
     -ms-border-radius: .4rem;
     -o-border-radius: .4rem;
-    margin-top: 2rem;
-    padding: 1rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    color: white;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: white;
+    background: rgba(0, 0, 0, 0.4); 
+    -webkit-box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+    box-shadow:2px 4px 8px rgba(0, 0, 0, 0.5), 10px 20px 40px rgba(0, 0, 0, 0.3) inset;
+}
+
+.text {
+    text-align: start;
+}
+
+.link:hover {
+    text-decoration: none;
 }
