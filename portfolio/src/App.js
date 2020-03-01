@@ -7,6 +7,8 @@ import Projects from './pages/Projects/Projects';
 import AboutMe from './pages/AboutMe/AboutMe';
 import BasicSkill from './pages/BasicSkill/BasicSkill';
 import AdvancedSkill from './pages/AdvancedSkill/AdvancedSkill';
+import Projects2 from './pages/Projects/Projects2';
+import Projects3 from './pages/Projects/Projects3';
 import {Switch, Route} from 'react-router-dom';
 
 import CardProvider from './context/CardContext';
@@ -38,6 +40,8 @@ class App extends React.Component {
               <Route exact path='/myskills/basic' component={BasicSkill} />
               <Route exact path='/myskills/advance' component={AdvancedSkill} />
               <Route exact path='/projects' component={Projects} />
+              <Route exact path='/projects/projects2' component={Projects2} />
+              <Route exact path='/projects/projects3' component={Projects3} />
             </Switch>
             </CardProvider>
         </div>
